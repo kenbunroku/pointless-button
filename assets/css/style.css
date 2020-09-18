@@ -1,0 +1,15 @@
+.button {
+  background-color: #8bffb0;
+  padding: 0 0;
+  font-size: 4vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  border-radius: 30px;
+  background: #8bffb0;
+  box-shadow: 10px 11px 15px #6cc789;
+}
