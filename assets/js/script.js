@@ -10,5 +10,5 @@ function changeNumber() {
   count += 1;
 
   // DISPLAY THE NUMBER IN HTML
-  button.innerHTML = count;
+  button.innerText = count;
 }
