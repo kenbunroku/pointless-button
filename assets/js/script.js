@@ -1,6 +1,6 @@
 // GET PRESS BUTTON
-let button = document.querySelector('.button'),
-  count = 0;
+const button = document.querySelector('.button');
+let count = 0;
 
 // ADD EVENT WHEN THE BUTTON IS PRESSED
 button.addEventListener('click', changeNumber);
