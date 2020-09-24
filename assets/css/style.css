@@ -2,14 +2,17 @@
   background-color: #8bffb0;
   padding: 0 0;
   font-size: 8vh;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   height: 30vh;
   width: 30vh;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
+  place-self: center;
   border-radius: 30px;
   background: #8bffb0;
   box-shadow: 10px 11px 15px #6cc789;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
 }
